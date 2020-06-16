@@ -1,0 +1,15 @@
+$color_principal: violet;
+$color_letras: silver;
+
+body{
+    $color_secundario: lightyellow;
+    background: $color_secundario;
+
+    div{
+        background: $color_principal;
+    }
+}
+
+h1, p{
+    color: $color_letras;
+}

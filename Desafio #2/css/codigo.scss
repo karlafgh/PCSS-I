@@ -1,0 +1,39 @@
+@each $typeDiv, $displayAtribute, $justifyAtribute in (d-flex, flex, space-between), (d-grid, grid), (d-block, block){
+    .#{$typeDiv}{
+        display: $displayAtribute;
+        justify-content: $justifyAtribute;
+    };
+}
+
+@for $incremento from 1 to 2{
+    @media screen and (min-width: 576px * $incremento) {
+        .container{
+            max-width: 540px * $incremento;
+        }
+    }
+}
+
+@for $incremento from 2 to 3{
+    @media screen and (min-width: 576px * $incremento - 384) {
+        .container{
+            max-width: 540px * $incremento - 360 ;
+        }
+    }
+}
+
+@for $incremento from 3 to 4{
+    @media screen and (min-width: 576px * $incremento - 736) {
+        .container{
+            max-width: 540px * $incremento - 660;
+        }
+    }
+}
+
+@for $incremento from 4 to 5{
+    @media screen and (min-width: 576px * $incremento - 1104) {
+        .container{
+            max-width: 540px * $incremento - 1020;
+        }
+    }
+}
+

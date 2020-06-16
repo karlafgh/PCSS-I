@@ -1,0 +1,15 @@
+// obj 2
+$color-es:(
+    rosa: pink,
+    azul: lightblue,
+    dorado: gold,
+);
+
+// obj 3
+@each $posicionMapa, $valor in $color-es{
+    .b-#{$posicionMapa}{
+        background: $valor;
+        padding: 5px;
+        border-radius: 15%;
+    }
+}

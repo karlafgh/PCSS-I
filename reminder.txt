@@ -1,0 +1,2 @@
+recuerda que la parte 5 se hace como te lo explicó obduber: debes poner cmd en la barra de direccion para indicarle al compilador donde se 
+guardará el nuevo archivo compilado (css)

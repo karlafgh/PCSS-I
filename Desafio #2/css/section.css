@@ -1,0 +1,32 @@
+section {
+  margin-top: 10%;
+}
+
+section div {
+  display: inline-block;
+}
+
+#nro-1, #nro-2, #nro-3 {
+  width: 30%;
+  height: 170px;
+  margin: 20px;
+  background: sandybrown;
+  text-align: center;
+}
+
+#nro-2 {
+  background: tomato;
+}
+
+#nro-3 {
+  background: #c84c26;
+}
+
+h2 {
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=section.css.map */

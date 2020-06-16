@@ -1,0 +1,42 @@
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .container {
+    max-width: 1080px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .container {
+    max-width: 1620px;
+  }
+}
+
+@media screen and (min-width: 2304px) {
+  .container {
+    max-width: 2160px;
+  }
+}
+/*# sourceMappingURL=codigo.css.map */

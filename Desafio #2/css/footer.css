@@ -1,0 +1,13 @@
+footer {
+  background: silver;
+  margin-top: 10%;
+  height: 70px;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+footer p, footer newP {
+  text-align: center;
+  padding: 10px;
+}
+/*# sourceMappingURL=footer.css.map */

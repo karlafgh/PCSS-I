@@ -1,0 +1,28 @@
+section{
+    margin-top: 10%;
+    div{
+        display: inline-block;
+    }
+}
+
+#nro-1{
+    width: 30%;
+    height: 170px;
+    margin: 20px;
+    background: #c92f23;
+    text-align: center;
+}
+#nro-2{
+    @extend #nro-1;
+    background: #fe8867;
+}
+#nro-3{
+    @extend #nro-1;
+    background: #ffc564;
+}
+h2{
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}

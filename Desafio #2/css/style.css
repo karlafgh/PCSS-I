@@ -1,0 +1,125 @@
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.b-rosa {
+  background: pink;
+  padding: 5px;
+  border-radius: 15%;
+}
+
+.b-azul {
+  background: lightblue;
+  padding: 5px;
+  border-radius: 15%;
+}
+
+.b-dorado {
+  background: gold;
+  padding: 5px;
+  border-radius: 15%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  font-family: sans-serif;
+}
+
+header {
+  background: #6a231e;
+  height: 80px;
+}
+header h1, header nav a, nav header a {
+  padding: 20px;
+  color: seashell;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+  margin-right: 2em;
+  margin-top: -40px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2em;
+}
+nav a {
+  text-decoration: none;
+  padding: 0;
+}
+
+section {
+  margin-top: 10%;
+}
+section div {
+  display: inline-block;
+}
+
+#nro-1, #nro-3, #nro-2 {
+  width: 30%;
+  height: 170px;
+  margin: 20px;
+  background: #c92f23;
+  text-align: center;
+}
+
+#nro-2 {
+  background: #fe8867;
+}
+
+#nro-3 {
+  background: #ffc564;
+}
+
+h2 {
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: #fef4aa;
+  margin-top: 10%;
+  height: 70px;
+  width: 100%;
+  padding-bottom: 0;
+}
+footer p, footer newP {
+  text-align: center;
+  padding: 10px;
+}

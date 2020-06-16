@@ -1,0 +1,12 @@
+$newColor : "black";
+
+body{
+    $heyYou : "orange";
+    background: $newColor;
+    color: $heyYou;
+}
+
+// recuerda que si no te quiere agarrar tu simplemente le instalas nuevamente sass  esta carpeta <npm install -g sass> y luego se 
+// compila asi <sass newFille.scss newFille.css> o <sass --watch newFille.scss newFille.css>
+
+
