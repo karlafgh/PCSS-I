@@ -1,0 +1,37 @@
+//obj 1
+$color_base_1: rgba(51, 24, 73, 0.933);
+$color_base_2: rgba(50, 119, 93, 0.933);
+
+$tamano_encabezados: (
+    h1: 35px,
+    h2: 25px,
+    h3: 20px,
+    p: 12px
+);
+
+$peso_letra: (
+    h1: bolder,
+    h2: bold,
+    h3: lighter,
+    p: initial 
+);
+
+$tipo_letra: (
+    h1: helvetica,
+    h2: verdana,
+    h3: monospace,
+    p: serif
+);
+
+%estilos-letra{
+    color: $color_base_1;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+$colors:(
+    azulito: rgb(94, 106, 172),
+    agua: rgb(35, 155, 115),
+    manzana: rgb(179, 94, 94),
+    amar_y_ya: rgb(230, 253, 146)
+);

@@ -1,0 +1,25 @@
+/* obj1 */
+@mixin estilo-fuente($familia, $tamaño-letra, $grosor, $color-letra){
+    font-family: $familia;
+    font-style: initial;
+    font-weight: $grosor;
+    font-size: $tamaño-letra,;
+    color: $color-letra;
+}
+/* obj 2 y 3*/
+@mixin section-flex($tOd, $tOD:row){
+
+    display: $tOd;
+    flex-direction: $tOD;
+
+    @if $tOD == row{
+        background: lightcoral;
+    }@else if $tOD == column{
+        background: rgb(121, 107, 107);
+    }
+} 
+/* obj 4 */
+@mixin caja-flex(){
+    display: flex;
+    justify-content: space-around;
+} 

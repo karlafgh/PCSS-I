@@ -1,0 +1,59 @@
+@import 'variable.scss';
+@mixin grid($back, $color, $grid-a){
+    background-color: transparentize($back,0.5);
+    color: $color;
+    grid-area: $grid-a;
+}
+ .contenedor{
+    //background: $verde;
+ 
+    width: columns(11);
+    max-width: 1000px;
+    border: 5 px solid $rosa;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: "header header header"
+                          "contenido contenido contenido"
+                          "contenido contenido contenido"
+                          "sidebar-2 widgets widgets"
+                          "footer footer footer";
+    > div{
+      display: block;
+      padding: 20px;
+      color: #fff;
+      background-color:  #2f89fc;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 2.5);
+    }
+     
+    
+    .header{
+        
+        grid-area: header;
+    }
+    .sidebar-1{
+      background-color: #ff8;
+      color: color(limon);
+      grid-area: sidebar-1;
+    }
+  
+    .contenido{
+        @include grid($limon,#000, contenido);
+     
+    }
+    .widgets{
+        @include grid($rosa,#000000,widgets);
+        
+    }
+    .sidebar-2{
+        @include grid($limon,#ffffff, sidebar-2);
+    }
+    .footer{
+        @include grid(#228391, #ffffff, footer);
+    }
+    
+  }

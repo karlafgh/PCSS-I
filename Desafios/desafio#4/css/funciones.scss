@@ -1,0 +1,6 @@
+//obj 2
+@function color_aleatorio($numero:1){
+    @return rgba(random(300), random(300), random(300), $numero);
+    //obj 5
+    @warn "esta es una función para obtener un color aleatorio"
+}

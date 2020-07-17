@@ -1,0 +1,44 @@
+@import "variables", "mixins", "funciones";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+body{
+    @include fuente-titulos();
+}
+.contenedor{
+    @include estilos-botones();
+}
+.contenido{
+    @extend %estilos-letra;
+
+    //obj 5
+    &-s{
+        @extend .contenido;
+        line-height: 35px;
+    }
+}
+a{
+    font-size: 18px;
+
+    &:hover{
+        color: red;
+    }
+}
+header{
+    @include estilos-secciones(azulito);
+}
+.contenedor{
+    @include estilos-secciones(agua);
+}
+.section-1{
+    @include estilos-secciones(manzana);
+}
+.section-2{
+    @include estilos-secciones(manzana);
+}
+footer{
+    @include estilos-secciones(amar_y_ya);
+}
